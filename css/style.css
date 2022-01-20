@@ -16,8 +16,11 @@ body {
 .item {
 	float: left;
 	margin: .5rem;
-	position: relative;
 	width: 250px;
+}
+
+.photo {
+	position: relative;
 }
 
 .item img {
@@ -48,6 +51,22 @@ a {
 
 .favourite:visited {
 	color: red;
+}
+
+.tag {
+	position: absolute;
+	left: 0;
+	bottom: 1em;
+	color: white;
+	font-weight: 500;
+}
+
+.discount {
+	background-color: red;
+}
+
+.tag-sost {
+	background-color: green;
 }
 
 .brand {
